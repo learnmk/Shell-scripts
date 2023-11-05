@@ -15,7 +15,7 @@ Here's a brief overview of the scripts available in this repository:
 
 1. **Jenkins.sh**: _Automate installation of Jenkins on RHEL hosts._
 2. **backup.sh**: _This script uses rsync to take backup of directory/files from remote host._
-3. **Script**: _Description of what this script does._
+3. **lamp.sh**: _Automate installation of lamp stack on RHEL hosts._
 
 Feel free to explore the scripts and use them in your projects.
 
