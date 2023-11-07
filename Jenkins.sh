@@ -24,7 +24,7 @@ if [ "$OS_TYPE" = "rhel" ]; then
    echo "Jenkins Initial admin password : $(cat /var/lib/jenkins/secrets/initialAdminPassword)"
 elif [ "$OS_TYPE" = "debian" ]; then
    sudo apt update
-   sudo apt install fontconfig openjdk-17-jre
+   sudo apt install fontconfig openjdk-17-jre -y
    java -version
    sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
         https://pkg.jenkins.io/debian/jenkins.io-2023.key
